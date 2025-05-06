@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Site</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Alegreya+SC:ital@1&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        .Text {
+            color: #141414;
+            margin: 0;
+            font-size: 1.40rem;
+        }
+
+        .TextL{
+            color: #141414;
+            margin: 0;
+            font-size: 2rem;
+        }
+
+        h3{
+            font-size: 2rem;
+            margin: 20px;
+        }
+
+        h2{
+            font-size: 2rem;
+            margin:0;
+            padding-bottom: 10px;
+        }
+
+        h4{
+            margin: 0;
+            font-size: 1.5rem;
+        }
+
+        span{
+            font-size: 1.5rem;
+            padding-left: 20px;
+        }
+
+        button{
+            height: 50px;
+            border: none;
+            margin-top: 30px;
+            color: white;
+            padding: 2px 20px;
+            font-size: 1.4rem;
+            font-weight: 200;
+            background-color: #C9C9F4;
+            border-radius: 10%;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        #Profile div img{
+            border-radius: 50%;
+        }
+
+        #Skills div div{
+            
+            width: 25%; 
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            justify-content: start;
+            text-align: start;
+            gap:10px;
+        }
+
+        #Contact div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 50px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <section id="top">
+        <h1 class="alegreya-sc-regular-italic HeadingText ">Hey! I'm Muvo</h1>
+        <h2 class="alegreya-sc-regular-italic HeadingText">Future Full-Stack Engineer<span>(Hopefully)</span> </h2>
+    </section>
+
+    <section id="Profile">
+        <div>
+            <img src="./Assets/image/senku.png" height="200" width="200" alt="">
+            <h3>About Me</h3>
+            <p class="Text">I am an electronic and communication engineer who curious about learning how systems 
+                            work and build them. Also loves to play video games and tests new desserts. </p>
+        </div>
+    </section>
+
+    <section id="Skills">
+        <h2>Skills and Hobbies</h2>
+        <div>
+            <div>
+                <img src="./Assets/image/coding-website-svgrepo-com.svg" height="100px" alt="">
+                <h4>Coding</h4>    
+                <p class="Text">I interested in programming and coding since middleschool. During in university
+                                and at work usually used C language on my projects and now I'm triyng to improve 
+                                on different areas of coding.
+                </p>
+            </div>
+
+            <div>
+                <img src="./Assets/image/exercism-svgrepo-com.svg" height="100px" alt="">
+                <h4>Stoic Person</h4>
+                <p class="Text">I am a peacefull and problem solving minded guy, like to maintain peace in rough situations and focused on
+                     creating ways to overcome problems them.
+                </p>
+            </div>
+
+            <div>
+                <img src="./Assets/image/adventure-compas-direction-svgrepo-com.svg" height="100px" alt="">
+                <h4>Hobbies</h4>
+                <p class="Text">I'm playing video games since my childhood. Mostly I play medieval or strategy types of games (AOE is one my favourites).
+                    Also travelling  countries, seeing new cultures, tasting new desserts are other things I like.
+                </p>
+            </div>
+        </div>
+        <h2>Contact with me </h2>
+        <p class="Text">If you like coop games or any project ideas that I can help call me. <br>
+        <button>Contact with me</button>
+    </section>
+
+    <section id="Contact">
+        <div>
+            <img src="./Assets/image/instagram-svgrepo-com.svg" height="50px" alt="">
+            <img src="./Assets/image/steam-svgrepo-com.svg" height="50px" alt="">
+            <img src="./Assets/image/github-svgrepo-com.svg" height="50px" alt="">
+        </div>
+        <p>© Muvo 2025</p>
+    </section>
+</body>
